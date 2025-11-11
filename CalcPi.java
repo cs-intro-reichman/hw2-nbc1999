@@ -6,7 +6,7 @@ public class CalcPi {
 		double donominator = 1.0 ;
 		double negorpos = 1.0; 
 		
-		for(int i = 1; i < numTerms; i++){
+		for(int i = 0 ; i < numTerms; i++){
 			sum = sum + negorpos * (1.0/donominator);
 			donominator =donominator +2;
 			negorpos = negorpos * -1.0;
